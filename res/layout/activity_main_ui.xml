@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+  
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/moto"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_style_alert_dialog_button"
+        android:text="摩托车" />
+
+    <Button
+        android:id="@+id/car"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_style_alert_dialog_button"
+        android:text="的士" />
+
+    <Button
+        android:id="@+id/bus"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_style_alert_dialog_button"
+        android:text="公交车" />
+
+    <Button
+        android:id="@+id/metre"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_style_alert_dialog_button"
+        android:text="地铁" />
+
+    <Button
+        android:id="@+id/truck"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_style_alert_dialog_button"
+        android:text="货车" />
+
+    <Button
+        android:id="@+id/errand"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_style_alert_dialog_button"
+        android:text="跑腿" />
+
+</LinearLayout>

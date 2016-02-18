@@ -1,0 +1,1 @@
+主要看Activity_ReadPerson这个类，是在百度地图上显示多个图片。

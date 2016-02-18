@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        android:orientation="vertical" >
+
+        
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"       
+       android:background="@color/blue"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/time"
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/bg_edittext"
+                android:gravity="center"
+                android:hint="时间" >
+
+              
+            </EditText>
+
+            <com.modi.view.CleanableAutoCompleteTextView
+                android:id="@+id/startAuto"
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/bg_edittext"
+                android:completionHint="请选择起点"
+                android:completionThreshold="1"
+                android:ems="20"
+                android:gravity="center"
+                
+                android:hint="起点"
+                android:imeOptions="actionDone"
+                android:scrollHorizontally="true"
+                android:singleLine="true" >
+                  <requestFocus />
+            </com.modi.view.CleanableAutoCompleteTextView>
+
+            <com.modi.view.CleanableAutoCompleteTextView
+                android:id="@+id/endAuto"
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/bg_edittext"
+                android:completionHint="请选择终点"
+                android:ems="20"
+                android:gravity="center"
+                android:hint="终点"
+                android:imeOptions="actionDone"
+                android:scrollHorizontally="true"
+                android:singleLine="true" >
+            </com.modi.view.CleanableAutoCompleteTextView>
+
+            <com.modi.view.CleanableEditText
+                android:id="@+id/words"
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/bg_edittext"
+                android:drawableRight="@drawable/search_clear"
+                android:gravity="center"
+                android:hint="留言" >
+            </com.modi.view.CleanableEditText>
+
+            <Button
+                android:id="@+id/sendOthers"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="发送" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

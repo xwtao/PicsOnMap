@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:gravity="center_horizontal"
+     android:orientation="vertical"
+    >
+
+  <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"        
+        android:background="@drawable/btn_style_alert_dialog_background"
+        
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+		<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"  >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="起点  "
+            android:textSize="20sp" 
+            android:textColor="@color/lightblue"/>
+  
+            <EditText
+                android:id="@+id/start" 
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"  
+                android:singleLine="true"
+    			android:scrollHorizontally="true"              
+                />              
+            
+		</LinearLayout>
+		
+		<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"  >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="终点  "
+            android:textSize="20sp" 
+            android:textColor="@color/lightblue"/>
+  
+            <EditText
+                android:id="@+id/end" 
+                android:layout_width="230dp"
+                android:layout_height="wrap_content" 
+                android:singleLine="true"
+    			android:scrollHorizontally="true"               
+                />                 
+            
+		</LinearLayout>		
+		
+        <ListView
+            android:id="@+id/ListViewFinishS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

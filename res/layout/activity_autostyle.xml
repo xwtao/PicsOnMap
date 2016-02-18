@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@android:id/text1"
+    style="?android:attr/dropDownItemStyle"
+
+    android:singleLine="true"
+    android:layout_width="match_parent"
+    android:layout_height="32dp"
+    android:textSize="13dp"
+    android:textColor="#808080"
+      android:background="@drawable/btn_style_alert_dialog_button"
+    android:ellipsize="marquee" />

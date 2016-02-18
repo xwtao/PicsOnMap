@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">modi</string>
+    <string-array name="things_type">
+        <item>搬家</item>
+         <item>郊游</item>
+          <item>其他</item>
+    </string-array>
+
+</resources>
